@@ -1,0 +1,15 @@
+.Continent {
+    background-color: tan;
+    color: gold;
+    
+    border: solid 3px brown;
+    border-radius: 50px;
+
+    margin: 50px;
+
+    height: 150px;
+    width: 200px;
+
+    text-align: center;
+}
+
