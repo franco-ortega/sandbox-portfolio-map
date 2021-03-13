@@ -1,15 +1,12 @@
 import React from 'react'
 // import './App.css';
-import Continent from '../continents/Continent'
+import Ocean from '../oceans/Ocean'
 
 function App() {
   return (
     <>
       The Map to Land a Job
-      <Continent />
-      <Continent />
-      <Continent />
-      <Continent />
+      <Ocean />      
     </>
   )
 }
