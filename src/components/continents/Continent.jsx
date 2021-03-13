@@ -1,8 +1,7 @@
-import React from 'react'
-// import styles from './Continent.css';
+import React from 'react';
 import styles from './Continent.module.css';
 
-function Continent() {
+const Continent = () => {
     return (
         <div className={styles.Continent}>
             <h1 style={{color: 'green'}}>Continent!!!</h1>
@@ -10,4 +9,4 @@ function Continent() {
     )
 }
 
-export default Continent
+export default Continent;
