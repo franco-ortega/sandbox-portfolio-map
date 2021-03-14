@@ -1,16 +1,16 @@
-import React from 'react'
+import React from 'react';
 import './App.css';
-import Ocean from '../oceans/Ocean'
+import Ocean from '../oceans/Ocean';
 
-function App() {
+const App = () => {
   return (
     <>
       <Ocean />      
     </>
   )
-}
+};
 
-export default App
+export default App;
 
 
 

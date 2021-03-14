@@ -1,6 +1,6 @@
 .Continent {
     background-color: tan;
-    color: gold;
+    color: black;
     
     border: solid 3px brown;
     border-radius: 50px;
@@ -9,5 +9,9 @@
     width: 200px;
 
     text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 

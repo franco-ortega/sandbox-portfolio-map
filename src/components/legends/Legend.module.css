@@ -3,6 +3,7 @@
     border: solid 5px brown;
 
     margin: 5%;
+    padding: 1%;
 
     height: 30vh;
     width: 20vw;
@@ -10,5 +11,13 @@
     position: relative;
     top: -6%;
     right: -5%;
-    
+
+
 }
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
