@@ -1,5 +1,5 @@
 .Ocean {
-    background-color: lightblue;
+    background-color: blue;
 
     display: flex;
     flex-direction: row;
@@ -8,5 +8,5 @@
     align-items: center;
     justify-content: center;
 
-    height: 100vh;
+    height: 95vh;
 }

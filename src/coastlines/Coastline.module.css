@@ -1,9 +1,10 @@
 .Coastline {
+    background-color: lightblue;
     border: dashed 2px brown;
     border-radius: 50px;
 
-    margin: 25px;
-    padding: 3px;
+    margin: 5px;
+    padding: 5px;
 
     height: fit-content;
 }
