@@ -1,0 +1,14 @@
+.Legend {
+    background-color: yellow;
+    border: solid 5px brown;
+
+    margin: 5%;
+
+    height: 30vh;
+    width: 20vw;
+
+    position: relative;
+    top: -6%;
+    right: -5%;
+    
+}

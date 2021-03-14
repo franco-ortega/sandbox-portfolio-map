@@ -1,5 +1,5 @@
 import React from 'react';
-import Continent from '../components/continents/Continent';
+import Continent from '../continents/Continent';
 import styles from './Coastline.module.css';
 
 const Coastline = () => {

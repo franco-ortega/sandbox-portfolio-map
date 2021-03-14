@@ -1,7 +1,9 @@
 import React from 'react';
+import Legend from '../legends/Legend';
 // import Coastline from '../../coastlines/Coastline';
-import OuterCoastline from '../../coastlines/OuterCoastline';
+import OuterCoastline from '../coastlines/OuterCoastline';
 import styles from './Ocean.module.css';
+import Island from '../islands/Island';
 
 const Ocean = () => {
     return (
@@ -11,6 +13,8 @@ const Ocean = () => {
             </p>
             <OuterCoastline />
             <OuterCoastline />
+            <Island />
+            <Legend />
             <OuterCoastline />
             <OuterCoastline />
             <OuterCoastline />
