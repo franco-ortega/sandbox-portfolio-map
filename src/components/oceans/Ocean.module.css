@@ -15,7 +15,7 @@
     background-blend-mode: soft-light;
     background-size: 400% 400%;
 
-    animation: gradient 25s ease 2s infinite alternate both;
+    animation: gradient 5s ease infinite alternate both;
     -moz-animation: gradient 15s ease 2s infinite alternate both;
     -webkit-animation: gradient 15s ease 2s infinite alternate both;      
 
