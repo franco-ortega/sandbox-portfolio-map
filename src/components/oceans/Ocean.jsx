@@ -9,6 +9,9 @@ import styles from './Ocean.module.css';
 import IslandOuterCoastline from '../coastlines/IslandOuterCoastline';
 import { continentData } from '../continents/continentData';
 import ContinentAlt from '../continents/ContinentAlt';
+import BioContinent from '../continents/BioContinent';
+import ProjectContinent from '../continents/ProjectContinent';
+import ResumeContinent from '../continents/ResumeContinent';
 
 const Ocean = () => {
 
@@ -19,14 +22,19 @@ const Ocean = () => {
             <p style={{ position: 'absolute'}}>
                 ~~~~~The Map to Land a Job~~~~~
             </p>
-            <OuterCoastline title={continentData.bio.title} />
-            <OuterCoastline title={continentData.projects.title} />
-            <IslandOuterCoastline />
+            {/* <OuterCoastline title={continentData.bio.title} />
+            <OuterCoastline title={continentData.projects.title} /> */}
             <Legend />
-            <OuterCoastline title={continentData.values.title} />
+            <IslandOuterCoastline />
+            {/* <OuterCoastline title={continentData.values.title} />
             <OuterCoastline title={continentData.resume.title} />
-            <OuterCoastline title={continentData.fun.title} />
+            <OuterCoastline title={continentData.fun.title} /> */}
             <ContinentAlt />
+            <BioContinent />
+            <IslandOuterCoastline />
+            <ProjectContinent />
+            <IslandOuterCoastline />
+            <ResumeContinent />
         </div>
     )
 }
