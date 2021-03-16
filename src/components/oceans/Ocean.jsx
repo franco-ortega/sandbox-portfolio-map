@@ -8,6 +8,7 @@ import styles from './Ocean.module.css';
 // import IslandCoastline from '../coastlines/IslandCoastline';
 import IslandOuterCoastline from '../coastlines/IslandOuterCoastline';
 import { continentData } from '../continents/continentData';
+import ContinentAlt from '../continents/ContinentAlt';
 
 const Ocean = () => {
 
@@ -25,6 +26,7 @@ const Ocean = () => {
             <OuterCoastline title={continentData.values.title} />
             <OuterCoastline title={continentData.resume.title} />
             <OuterCoastline title={continentData.fun.title} />
+            <ContinentAlt />
         </div>
     )
 }
