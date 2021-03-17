@@ -12,6 +12,7 @@ import ContinentAlt from '../continents/ContinentAlt';
 import BioContinent from '../continents/BioContinent';
 import ProjectContinent from '../continents/ProjectContinent';
 import ResumeContinent from '../continents/ResumeContinent';
+// import ContinentCloseup from '../continents/ContinentCloseup';
 import IslandAlt from '../islands/IslandAlt';
 
 const Ocean = () => {
@@ -30,15 +31,16 @@ const Ocean = () => {
             {/* <OuterCoastline title={continentData.values.title} />
             <OuterCoastline title={continentData.resume.title} />
             <OuterCoastline title={continentData.fun.title} /> */}
-            <ContinentAlt />
+            <ContinentAlt/>
             <BioContinent />
-            <IslandAlt />
+            {/* <IslandAlt /> */}
             {/* <IslandOuterCoastline /> */}
             <ProjectContinent />
-            <IslandAlt />
             {/* <IslandOuterCoastline /> */}
             <ResumeContinent />
             <IslandAlt />
+            {/* <IslandAlt /> */}
+            {/* <ContinentCloseup /> */}
         </div>
     )
 }

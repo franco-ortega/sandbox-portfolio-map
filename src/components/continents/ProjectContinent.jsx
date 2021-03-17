@@ -1,6 +1,6 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import styles from './ContinentAlt.module.css';
+import styles from './ContinentGroup.module.css';
 
 const ContinentAlt = props => {
     return (

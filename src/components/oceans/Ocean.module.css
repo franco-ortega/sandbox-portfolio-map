@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-around;
 
-    height: fit-content;
+    height: 100%;
 
 
     background: linear-gradient(-45deg, #241192, #1d2ec9,  #291181, #2e1dcc, #1567d1);

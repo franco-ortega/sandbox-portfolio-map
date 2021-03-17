@@ -9,7 +9,6 @@ const Compass = props => {
                 <div className={styles.CompassCenter}>
                     <div className={styles.CompassDot}>
 
-                    
                     <hr className={styles.test3} />
                     <hr className={styles.test1} />
                     <hr className={styles.test4} />
