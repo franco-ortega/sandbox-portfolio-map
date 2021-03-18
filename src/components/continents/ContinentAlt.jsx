@@ -1,24 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
+import useContinentToggle from '../../hooks/useContinentToggle';
 // import PropTypes from 'prop-types';
 import styles from './ContinentAlt.module.css';
 import ContinentCloseup from './ContinentCloseup';
 
 const ContinentAlt = props => {
-
-    const [isActive, setIsActive] = useState(true);
-
-    const onContinentClick = () => {
-        console.log('Continent was clicked!');
-        setIsActive(!isActive);
-    }
+    const { isActive, onContinentClick } = useContinentToggle();
 
     return (
-        <div>
-            <ContinentCloseup
-                isActive={isActive}
-                setIsActive={setIsActive}
+        <div className={styles.ContinentContainer}>
+
+            {isActive
+            ? <ContinentCloseup
+                onContinentClick={onContinentClick}
             />
-            <div
+            : <div
                 onClick={onContinentClick}
                 className={styles.CoastlineOuter}
                 // className={isActive ? styles.CoastlineOuter : styles.CoastlineOuterCloseup}
@@ -35,6 +31,8 @@ const ContinentAlt = props => {
                     </div>
                 </div>
             </div>
+            }
+
         </div>
     )
 }
