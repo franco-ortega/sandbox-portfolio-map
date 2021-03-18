@@ -1,18 +1,18 @@
 .Island {
     background-color: tan;
-    color: black;
-    
     border: solid 2px brown;
     border-radius: 50px;;
 
-    height: 75px;
-    width: 75px;
-
-    text-align: center;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    height: 9vh;
+    width: 5vw;
+
+    font-size: 1.25vw;
+    text-align: center;
+    
 }
 
 .CoastlineInner {
@@ -31,7 +31,7 @@
 
     border-radius: 50px;
 
-    margin: 5vw;
+    margin: 2vw;
     padding: 3px;
 
     position: relative;

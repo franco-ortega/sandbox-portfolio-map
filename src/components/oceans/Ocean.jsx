@@ -11,12 +11,11 @@ const Ocean = () => {
 
     return (
         <div className={styles.Ocean}>
-            <p style={{ position: 'absolute'}}>
-            </p>
             <Legend />
+            {/* <Continent/> */}
             <Island />
-            <Continent/>
             <BioContinent />
+            <Island />
             <ProjectContinent />
             <ResumeContinent />
             <Island />

@@ -1,24 +1,32 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-import styles from './ContinentGroup.module.css';
+import useContinentToggle from '../../hooks/useContinentToggle';
+import BioContinentCloseup from './BioContinentCloseup';
+import styles from './BioContinent.module.css';
 
-const BioContinent = props => {
+const BioContinent = () => {
+    const { isActive, onContinentClick } = useContinentToggle();
+
     return (
         <div className={styles.ContinentContainer}>
-            <div className={styles.CoastlineOuter}>
+
+            {isActive
+            ? <BioContinentCloseup
+                onContinentClick={onContinentClick}
+            />
+            : <div
+                onClick={onContinentClick}
+                className={styles.CoastlineOuter}
+            >
                 <div className={styles.CoastlineInner}>
                     <div className={styles.ContinentGroup}>
                         <h1>Bio</h1>
                     </div>
                 </div>
             </div>
+            }
             
         </div>
     )
-}
-
-BioContinent.propTypes = {
-
 }
 
 export default BioContinent

@@ -14,7 +14,6 @@
     background: lightskyblue;
     border-radius: 50px;
 
-    
     padding: 5px;
     width: fit-content;
 }
@@ -36,8 +35,8 @@
     align-items: center;
     justify-content: center;
 
-    height: 150px;
-    width: 200px;
+    height: 25vh;
+    width: 20vw;
 
     text-align: center;
 }

@@ -1,0 +1,112 @@
+.BioCoastlineOuterCloseup {
+    background: linear-gradient(90deg, #87cefa, #4e90b9,  #7eafce, #5a87a3);
+    background-blend-mode: soft-light;
+    background-size: 400% 400%;
+
+    animation: gradient 20s ease infinite;
+    -moz-animation: gradient 20s ease infinite;
+    -webkit-animation: gradient 20s ease infinite;
+
+    border-radius: 360px 150px 285px 270px;
+
+    margin: 5vw;
+    padding: 1.5vw;
+
+    position: relative;
+    position: fixed;
+    top: 2%;
+    right: 15%;
+    z-index: 1;
+
+    font-size: 1.25vw;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0 50%;
+    }
+    25% {
+        background-position: 50% 0;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    75% {
+      background-position: 50% 75%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
+
+  @-moz-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @-webkit-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.BioCoastlineInnerCloseup {
+    border: dashed 0.3vw brown;
+    border-radius: 360px 150px 285px 270px;
+
+    padding: 1.5vw;
+
+    height: fit-content;
+}
+
+.BioContinentCloseup {
+    background-color: tan;
+    
+    border: solid 0.40vw brown;
+    border-radius: 360px 150px 285px 270px;
+
+    height: 70vh;
+    width: 60vw;
+
+    padding: 1vw;
+
+    font-size: 1.75vw;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    position: relative;
+}
+
+.BioContentCloseup {
+    border-radius:  0px 0px 120px 0px;
+
+    margin: 1vw;
+    
+    padding-left: 1.75vw;
+    padding-right: 1.5vw;
+    padding-bottom: 1vw;
+    text-align: justify;
+
+    overflow-y: scroll;
+    scroll-behavior: auto;
+
+    font-size: 1.35vw;
+    text-align: left;
+}

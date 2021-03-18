@@ -1,19 +1,17 @@
-.Ocean {
-    background-color: blue;
+.ContinentContainer {
+    position: relative;
     
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    
+    margin: 1%;
+    height: 35vh;
+    width: 25vw;
+}
 
-    height: 100vh;
-
-    padding: 5%;
-
-
-    background: linear-gradient(90deg, #241192, #1d2ec9,  #291181, #2e1dcc, #1567d1);
+.CoastlineOuter {
+    background: linear-gradient(90deg, #87cefa, #4e90b9,  #7eafce, #5a87a3);
     background-blend-mode: soft-light;
     background-size: 400% 400%;
 
@@ -21,6 +19,9 @@
     -moz-animation: gradient 20s ease infinite;
     -webkit-animation: gradient 20s ease infinite;
 
+    border-radius: 120px 70px 95px 90px;
+
+    padding: .8vw;
 }
 
 @keyframes gradient {
@@ -65,3 +66,25 @@
     }
   }
 
+
+.CoastlineInner {
+    border: dashed 2px brown;
+    border-radius: 120px 70px 95px 90px;
+
+    padding: .8vw;
+}
+
+.ContinentGroup {
+    background-color: tan;
+    border: solid 3px brown;
+    border-radius: 120px 70px 95px 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 25vh;
+    width: 20vw;
+
+    text-align: center;
+}
