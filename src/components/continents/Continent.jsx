@@ -1,17 +1,32 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import useContinentToggle from '../../hooks/useContinentToggle';
+import ContinentCloseup from './ContinentCloseup';
 import styles from './Continent.module.css';
 
-const Continent = ({ title }) => {
+const Continent = props => {
+    const { isActive, onContinentClick } = useContinentToggle();
+
     return (
-        <div className={styles.Continent}>
-            <h1>{title}</h1>
+        <div className={styles.ContinentContainer}>
+
+            {isActive
+            ? <ContinentCloseup
+                onContinentClick={onContinentClick}
+            />
+            : <div
+                onClick={onContinentClick}
+                className={styles.CoastlineOuter}
+            >
+                <div className={styles.CoastlineInner}>
+                    <div className={styles.Continent}>
+                        <h1>Continent</h1>
+                    </div>
+                </div>
+            </div>
+            }
+
         </div>
     )
-};
+}
 
-Continent.propTypes = {
-    title: PropTypes.string.isRequired
-};
-
-export default Continent;
+export default Continent

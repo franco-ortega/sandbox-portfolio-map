@@ -4,8 +4,15 @@ import styles from './Island.module.css';
 
 const Island = props => {
     return (
-        <div className={styles.Island}>
-            Island
+        <div>
+            <div className={styles.CoastlineOuter}>
+                <div className={styles.CoastlineInner}>
+                    <div className={styles.Island}>
+                        <p>Island</p>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     )
 }
@@ -14,4 +21,4 @@ Island.propTypes = {
 
 }
 
-export default Island;
+export default Island

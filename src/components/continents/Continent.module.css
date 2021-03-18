@@ -1,40 +1,56 @@
+.ContinentContainer {
+    position: relative;
+    height: 35vh;
+    width: 30vw;
+}
+
+.CoastlineOuter {
+    background: lightskyblue;
+    border-radius: 90px 70px 125px 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 5px;
+    width: fit-content;
+}
+
+.CoastlineInner {
+    background: lightskyblue;
+    border: dashed 2px brown;
+    border-radius: 90px 70px 125px 75px;
+
+    padding: 5px;
+}
+
 .Continent {
     background-color: tan;
-    
     border: solid 3px brown;
-    border-radius: 50px;
+    border-radius: 90px 70px 125px 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     height: 150px;
     width: 200px;
 
     text-align: center;
+}
+
+.BioContinent {
+    background-color: tan;
+    border: solid 3px brown;
+    border-radius:  50px;
 
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
-.ContinentCloseup {
-    background-color: tan;
-    
-    border: solid 3px brown;
-    border-radius: 50px;
-
-    height: 500px;
-    width: 800px;
-
-    padding: 20px;
+    height: 150px;
+    width: 200px;
 
     text-align: center;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-
-    position: fixed;
-    top: 10%;
-    z-index: -1;
-    
 }
 

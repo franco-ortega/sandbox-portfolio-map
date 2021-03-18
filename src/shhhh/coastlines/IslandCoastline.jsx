@@ -1,6 +1,6 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import Island from '../islands/Island';
+import Island from '../landmasses/Island';
 import styles from './Coastline.module.css';
 
 function IslandCoastline(props) {

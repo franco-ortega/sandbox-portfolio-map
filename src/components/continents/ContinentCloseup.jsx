@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './ContinentCloseup.module.css';
 
-const Continent = ({ title, onContinentClick }) => {
+const Continent = ({ onContinentClick }) => {
 
     return (
         <div
@@ -22,7 +22,6 @@ const Continent = ({ title, onContinentClick }) => {
 };
 
 Continent.propTypes = {
-    title: PropTypes.string.isRequired,
     onContinentClick: PropTypes.func.isRequired
 };
 
