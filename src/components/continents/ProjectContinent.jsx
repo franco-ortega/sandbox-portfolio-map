@@ -2,12 +2,12 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 import styles from './ContinentGroup.module.css';
 
-const ContinentAlt = props => {
+const ProjectContinent = props => {
     return (
-        <div>
+        <div className={styles.ContinentContainer}>
             <div className={styles.CoastlineOuter}>
                 <div className={styles.CoastlineInner}>
-                    <div className={styles.ContinentAlt}>
+                    <div className={styles.ContinentGroup}>
                         <h1>Team Projects</h1>
                     </div>
                 </div>
@@ -17,8 +17,8 @@ const ContinentAlt = props => {
     )
 }
 
-ContinentAlt.propTypes = {
+ProjectContinent.propTypes = {
 
 }
 
-export default ContinentAlt
+export default ProjectContinent

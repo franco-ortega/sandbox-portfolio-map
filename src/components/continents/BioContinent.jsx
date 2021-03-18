@@ -1,6 +1,5 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-// import styles from './ContinentGroup.module.css';
 import styles from './ContinentGroup.module.css';
 
 const BioContinent = props => {
