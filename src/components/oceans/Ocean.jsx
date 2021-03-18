@@ -1,6 +1,6 @@
 import React from 'react';
 import Legend from '../legends/Legend';
-import Continent from '../continents/Continent';
+// import Continent from '../continents/Continent';
 import BioContinent from '../continents/BioContinent';
 import ProjectContinent from '../continents/ProjectContinent';
 import ResumeContinent from '../continents/ResumeContinent';
