@@ -110,3 +110,10 @@
     font-size: 1.35vw;
     text-align: left;
 }
+
+button {
+  background-color: black;
+  color: silver;
+  padding: 1%;
+  border-radius: 50px;
+}
