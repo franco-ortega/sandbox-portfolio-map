@@ -116,4 +116,5 @@ button {
   color: silver;
   padding: 1%;
   border-radius: 50px;
+  outline: none;
 }
