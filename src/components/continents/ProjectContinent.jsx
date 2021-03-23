@@ -1,7 +1,7 @@
 import React from 'react';
 import useContinentToggle from '../../hooks/useContinentToggle';
 import ProjectContinentCloseup from './ProjectContinentCloseup';
-import styles from './ContinentGroup.module.css';
+import styles from './ProjectContinent.module.css';
 
 const ProjectContinent = () => {
     const { isActive, onContinentClick } = useContinentToggle();
@@ -17,8 +17,8 @@ const ProjectContinent = () => {
                 className={styles.CoastlineOuter}
             >
                 <div className={styles.CoastlineInner}>
-                    <div className={styles.ContinentGroup}>
-                        <h1>Project</h1>
+                    <div className={styles.ProjectContinent}>
+                        <h1>Team Projects</h1>
                     </div>
                 </div>
             </div>

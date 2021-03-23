@@ -18,7 +18,7 @@ const BioContinent = () => {
                 className={styles.CoastlineOuter}
             >
                 <div className={styles.CoastlineInner}>
-                    <div className={styles.ContinentGroup}>
+                    <div className={styles.BioContinent}>
                         <h1>Bio</h1>
                     </div>
                 </div>

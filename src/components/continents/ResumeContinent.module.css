@@ -19,7 +19,7 @@
     -moz-animation: gradient 20s ease infinite;
     -webkit-animation: gradient 20s ease infinite;
 
-    border-radius: 120px 70px 95px 90px;
+    border-radius: 120px 270px 155px 190px;
 
     padding: .8vw;
 }
@@ -69,15 +69,15 @@
 
 .CoastlineInner {
     border: dashed 2px brown;
-    border-radius: 120px 70px 95px 90px;
+    border-radius: 120px 270px 155px 190px;
 
     padding: .8vw;
 }
 
-.BioContinent {
+.ResumeContinent {
     background-color: tan;
     border: solid 3px brown;
-    border-radius: 120px 70px 95px 90px;
+    border-radius: 120px 270px 155px 190px;
 
     display: flex;
     align-items: center;
