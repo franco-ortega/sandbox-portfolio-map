@@ -1,0 +1,21 @@
+.BeHuman {
+    background-color: #9cc4d7;
+    border: solid violet;
+    border-radius: 1vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 5%;
+    padding: 1%;
+    height: 100%;
+    width: 100%;
+
+    font-size: 1.25vw;
+    text-align: justify;
+}
+
+.ProjectBox {
+    margin: 5%;
+}
