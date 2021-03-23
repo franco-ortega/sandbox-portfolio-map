@@ -5,7 +5,7 @@ import styles from './Legend.module.css';
 const Legend = () => {
     return (
         <div className={styles.Legend}>
-            <h2>Legend</h2>
+            <h2>Legend/Tech Stack</h2>
             <p>
                 Front End: words, words, words
             </p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import useContinentToggle from '../../hooks/useContinentToggle';
+import useContinentToggle from '../hooks/useContinentToggle';
 import ContinentCloseup from './ContinentCloseup';
 import styles from './Continent.module.css';
 

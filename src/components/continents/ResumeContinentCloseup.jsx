@@ -13,11 +13,16 @@ const ResumeContinentCloseup = ({ onContinentClick }) => {
                     <p className={styles.ResumeContent}>
                         Resume words Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit vitae nobis tempora consequatur necessitatibus nihil quas unde nisi! Ad provident vel ea, porro a dignissimos doloremque impedit adipisci rerum.
                     </p>
-                    <button onClick={onContinentClick}>X</button>
+                    <button
+                        onClick={onContinentClick}
+                        className={styles.ResumeButton}
+                    >
+                        X
+                    </button>
                 </div>
             </div>
         </div>
-    )
+    );
 };
 
 ResumeContinentCloseup.propTypes = {

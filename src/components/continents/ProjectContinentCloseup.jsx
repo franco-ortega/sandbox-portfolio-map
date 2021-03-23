@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './ProjectContinentCloseup.module.css';
+import WeatherBeats from '../projects/WeatherBeats';
+import BeHuman from '../projects/BeHuman';
 
 const ProjectContinentCloseup = ({ onContinentClick }) => {
 
@@ -11,13 +13,35 @@ const ProjectContinentCloseup = ({ onContinentClick }) => {
                 <div className={styles.ProjectContinentCloseup}>
                     <h1>Team Projects</h1>
                     <p className={styles.ProjectContent}>
-                        Project words Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit vitae nobis tempora consequatur necessitatibus nihil quas unde nisi! Ad provident vel ea, porro a dignissimos doloremque impedit adipisci rerum.
+                        These projects were completed remotely with 3-5 member teams over 5-10 day sprints.
                     </p>
-                    <button onClick={onContinentClick}>X</button>
+                    <div className={styles.ProjectContainer}>
+                        <div className={styles.Project}>
+                            PROJECT #1 - WeatherBeats
+                            <WeatherBeats />
+                        </div>
+                        <div className={styles.Project}>
+                            <p>beHuman</p>
+                            {/* <p style={{ position: 'fixed', top: '50%', right: '20%', transform: 'rotate(90deg)' }}>
+                                (layout option #2)
+                            </p> */}
+                            <BeHuman
+                                onContinentClick={onContinentClick}
+                            />
+                        </div>
+                        <div className={styles.Project}>PROJECT #3 - Choose GIF</div>
+                        <div className={styles.Project}>PROJECT #4 - Major Arcana Divinator</div>
+                    </div>
+                    <button
+                        onClick={onContinentClick}
+                        className={styles.ProjectButton}
+                    >
+                        X
+                    </button>
                 </div>
             </div>
         </div>
-    )
+    );
 };
 
 ProjectContinentCloseup.propTypes = {
