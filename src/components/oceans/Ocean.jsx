@@ -4,7 +4,10 @@ import Legend from '../legends/Legend';
 import BioContinent from '../continents/BioContinent';
 import ProjectContinent from '../continents/ProjectContinent';
 import ResumeContinent from '../continents/ResumeContinent';
-import Island from '../islands/Island';
+// import Island from '../islands/Island';
+import GitHubIsland from '../islands/GitHubIsland';
+import LinkedInIsland from '../islands/LinkedInIsland';
+import ArtworkIsland from '../islands/ArtworkIsland';
 import styles from './Ocean.module.css';
 
 const Ocean = () => {
@@ -13,12 +16,12 @@ const Ocean = () => {
         <div className={styles.Ocean}>
             <Legend />
             {/* <Continent/> */}
-            <Island />
+            <GitHubIsland />
             <BioContinent />
-            <Island />
+            <LinkedInIsland />
             <ProjectContinent />
             <ResumeContinent />
-            <Island />
+            <ArtworkIsland />
         </div>
     )
 }
