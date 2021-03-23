@@ -15,6 +15,12 @@ const Ocean = () => {
 
     return (
         <div className={styles.Ocean}>
+            <div className={styles.Name}>
+                Franco Ortega
+            </div>
+            {/* <div className={styles.ClickAround}>
+                Click around to explore.
+            </div> */}
             <Legend />
             {/* <Continent/> */}
             <GitHubIsland />
