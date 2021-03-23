@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import Ocean from '../oceans/Ocean';
-import Compass from '../compass/Compass';
+// import Compass from '../compass/Compass';
 
 const App = () => {
   return (
     <>
-      <Compass />
+      {/* <Compass /> */}
       <Ocean />      
     </>
   )

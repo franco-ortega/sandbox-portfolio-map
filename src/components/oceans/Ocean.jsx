@@ -8,6 +8,7 @@ import ResumeContinent from '../continents/ResumeContinent';
 import GitHubIsland from '../islands/GitHubIsland';
 import LinkedInIsland from '../islands/LinkedInIsland';
 import ArtworkIsland from '../islands/ArtworkIsland';
+import Compass from '../compass/Compass';
 import styles from './Ocean.module.css';
 
 const Ocean = () => {
@@ -22,6 +23,7 @@ const Ocean = () => {
             <ProjectContinent />
             <ResumeContinent />
             <ArtworkIsland />
+            <Compass />
         </div>
     )
 }
