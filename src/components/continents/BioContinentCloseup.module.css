@@ -12,11 +12,10 @@
     margin: 5vw;
     padding: 1.5vw;
 
-    position: relative;
     position: fixed;
     top: -2%;
-    right: 6%;
-    z-index: 1;
+    right: 12%;
+    z-index: 2;
 
     font-size: 1.25vw;
 }
@@ -78,12 +77,12 @@
     border: solid 0.40vw brown;
     border-radius: 360px 150px 285px 270px;
 
-    height: 75vh;
-    width: 70vw;
+    height: 70vh;
+    width: 60vw;
 
-    padding: 1vw;
+    padding: .5vw;
 
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     text-align: center;
 
     display: flex;
@@ -94,7 +93,7 @@
     position: relative;
 }
 
-.BioContentCloseup {
+.BioContent {
     border-radius:  0px 0px 120px 0px;
 
     margin: 1vw;
@@ -106,7 +105,7 @@
     overflow-y: scroll;
     scroll-behavior: auto;
 
-    font-size: 1.35vw;
+    font-size: 1.25vw;
     text-align: left;
 }
 

@@ -1,11 +1,9 @@
 import React from 'react';
 import useContinentToggle from '../../hooks/useContinentToggle';
-// import PropTypes from 'prop-types';
 import ResumeContinentCloseup from './ResumeContinentCloseup';
 import styles from './ResumeContinent.module.css';
 
-const ResumeContinent = props => {
-
+const ResumeContinent = () => {
     const { isActive, onContinentClick } = useContinentToggle();
 
     return (
@@ -31,8 +29,5 @@ const ResumeContinent = props => {
     )
 }
 
-ResumeContinent.propTypes = {
 
-}
-
-export default ResumeContinent
+export default ResumeContinent;

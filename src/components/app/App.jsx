@@ -9,7 +9,7 @@ const App = () => {
       {/* <Compass /> */}
       <Ocean />      
     </>
-  )
+  );
 };
 
 export default App;

@@ -5,10 +5,11 @@ import styles from './ProjectContinent.module.css';
 
 const ProjectContinent = () => {
     const { isActive, onContinentClick } = useContinentToggle();
+
     return (
         <div className={styles.ContinentContainer}>
 
-                        {isActive
+            {isActive
             ? <ProjectContinentCloseup
                 onContinentClick={onContinentClick}
             />
@@ -29,4 +30,4 @@ const ProjectContinent = () => {
     )
 }
 
-export default ProjectContinent
+export default ProjectContinent;
