@@ -12,11 +12,10 @@
     margin: 5vw;
     padding: 1.5vw;
 
-    position: relative;
     position: fixed;
-    top: 3%;
+    top: -1%;
     right: 15%;
-    z-index: 1;
+    z-index: 2;
 }
 
 @keyframes gradient {
@@ -82,6 +81,7 @@
 
     padding: 20px;
 
+    font-size: 1.25vw;
     text-align: center;
 
     display: flex;
@@ -105,3 +105,12 @@
     overflow-y: scroll;
     scroll-behavior: auto;
 }
+
+button {
+  background-color: black;
+  color: silver;
+  padding: 1%;
+  border-radius: 50px;
+  outline: none;
+}
+

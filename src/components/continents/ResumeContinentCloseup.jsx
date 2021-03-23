@@ -10,7 +10,7 @@ const ResumeContinentCloseup = ({ onContinentClick }) => {
             <div className={styles.ResumeCoastlineInnerCloseup}>
                 <div className={styles.ResumeContinentCloseup}>
                     <h1>Resume Closeup</h1>
-                    <p className={styles.ResumeContentCloseup}>
+                    <p className={styles.ResumeContent}>
                         Resume words Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit vitae nobis tempora consequatur necessitatibus nihil quas unde nisi! Ad provident vel ea, porro a dignissimos doloremque impedit adipisci rerum.
                     </p>
                     <button onClick={onContinentClick}>X</button>

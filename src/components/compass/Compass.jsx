@@ -1,8 +1,7 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import styles from './Compass.module.css';
 
-const Compass = props => {
+const Compass = () => {
     return (
         <div className={styles.Compass}>
             <div className={styles.CompassRing}>
@@ -22,11 +21,8 @@ const Compass = props => {
                 </div>
             </div>
         </div>
-    )
+    );
 };
 
-Compass.propTypes = {
 
-};
-
-export default Compass
+export default Compass;

@@ -1,6 +1,5 @@
 .ContinentContainer {
     position: relative;
-    z-index: 1;
     
     display: flex;
     align-items: center;
@@ -66,7 +65,6 @@
       background-position: 0% 50%;
     }
   }
-
 
 .CoastlineInner {
     border: dashed 2px brown;
