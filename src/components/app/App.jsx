@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Ocean from '../oceans/Ocean';
 import Compass from '../compass/Compass';
 
 const App = () => {
+  useEffect(() => {
+    window.screen.orientation.lock("landscape-primary");
+  }, [])
+  
   return (
     <>
       <Compass />

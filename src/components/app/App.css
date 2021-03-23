@@ -4,30 +4,8 @@
     padding: 0;
 }
 
-body {
-    
+body {    
     background-color: goldenrod;
     margin: 1%;
     padding: 5px;
 }
-
-@media only screen and (min-width: 500px) and (orientation:portrait){
-    body {
-        height: 100vw;
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        transform: rotate(90deg);
-    }
-  }
-
-  @media only screen and (min-width: 500px) and (orientation:landscape){
-    body {
-       -webkit-transform: rotate(0deg);
-       -moz-transform: rotate(0deg);
-       -o-transform: rotate(0deg);
-       -ms-transform: rotate(0deg);
-       transform: rotate(0deg);
-    }
-  }
