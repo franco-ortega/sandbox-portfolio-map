@@ -1,25 +1,71 @@
 .ProjectCoastlineOuterCloseup {
-    background: lightskyblue;
+    background: linear-gradient(90deg, #87cefa, #4e90b9,  #7eafce, #5a87a3);
+    background-blend-mode: soft-light;
+    background-size: 400% 400%;
 
-    border-radius: 50px;
+    animation: gradient 20s ease infinite;
+    -moz-animation: gradient 20s ease infinite;
+    -webkit-animation: gradient 20s ease infinite;
+
+    border-radius: 420px 370px 255px 190px;
 
     margin: 5vw;
-    padding: 10px;
+    padding: 1.5vw;
 
     position: relative;
     position: fixed;
-    top: 5%;
-    right: 15%;
+    top: -3%;
+    right: 5%;
     z-index: 1;
 }
 
-.ProjectCoastlineInnerCloseup {
-    background: lightskyblue;
-    
-    border: dashed 3px brown;
-    border-radius: 50px;
+@keyframes gradient {
+    0% {
+      background-position: 0 50%;
+    }
+    25% {
+        background-position: 50% 0;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    75% {
+      background-position: 50% 75%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
 
-    padding: 10px;
+  @-moz-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @-webkit-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.ProjectCoastlineInnerCloseup {
+    border: dashed 0.3vw brown;
+    border-radius: 420px 370px 255px 190px;
+
+    padding: 1.5vw;
 
     height: fit-content;
 }
@@ -27,14 +73,15 @@
 .ProjectContinentCloseup {
     background-color: tan;
     
-    border: solid 6px brown;
-    border-radius: 50px;
+    border: solid 0.40vw brown;
+    border-radius: 420px 370px 255px 190px;
 
-    height: 500px;
-    width: 800px;
+    height: 75vh;
+    width: 70vw;
 
-    padding: 20px;
+    padding: 1vw;
 
+    font-size: 1.5vw;
     text-align: center;
 
     display: flex;
@@ -46,15 +93,23 @@
 }
 
 .ProjectContent {
-    border-radius:  0px 0px 120px 0px;
-
-    margin: 5%;
-    padding-top: 0%;
-    padding-left: 2%;
-    padding-right: 4%;
-    padding-bottom: 4%;
+    margin: 1vw;
+    padding-left: 1.75vw;
+    padding-right: 1.5vw;
+    padding-bottom: 1vw;
     text-align: justify;
 
     overflow-y: scroll;
     scroll-behavior: auto;
+
+    font-size: 1.35vw;
+    text-align: left;
 }
+
+button {
+    background-color: black;
+    color: silver;
+    padding: 1%;
+    border-radius: 50px;
+    outline: none;
+  }

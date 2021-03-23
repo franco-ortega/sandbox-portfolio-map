@@ -1,8 +1,8 @@
 import React from 'react';
 import useContinentToggle from '../../hooks/useContinentToggle';
 // import PropTypes from 'prop-types';
-import styles from './ContinentGroup.module.css';
 import ResumeContinentCloseup from './ResumeContinentCloseup';
+import styles from './ResumeContinent.module.css';
 
 const ResumeContinent = props => {
 
@@ -20,7 +20,7 @@ const ResumeContinent = props => {
                 className={styles.CoastlineOuter}
             >
                 <div className={styles.CoastlineInner}>
-                    <div className={styles.ContinentGroup}>
+                    <div className={styles.ResumeContinent}>
                         <h1>Resume</h1>
                     </div>
                 </div>

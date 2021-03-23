@@ -1,25 +1,72 @@
 .ResumeCoastlineOuterCloseup {
-    background: lightskyblue;
+    background: linear-gradient(90deg, #87cefa, #4e90b9,  #7eafce, #5a87a3);
+    background-blend-mode: soft-light;
+    background-size: 400% 400%;
 
-    border-radius: 50px;
+    animation: gradient 20s ease infinite;
+    -moz-animation: gradient 20s ease infinite;
+    -webkit-animation: gradient 20s ease infinite;
+
+    border-radius: 120px 270px 155px 190px;
 
     margin: 5vw;
-    padding: 10px;
+    padding: 1.5vw;
 
     position: relative;
     position: fixed;
-    top: 5%;
+    top: 3%;
     right: 15%;
     z-index: 1;
 }
 
-.ResumeCoastlineInnerCloseup {
-    background: lightskyblue;
-    
-    border: dashed 3px brown;
-    border-radius: 50px;
+@keyframes gradient {
+    0% {
+      background-position: 0 50%;
+    }
+    25% {
+        background-position: 50% 0;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    75% {
+      background-position: 50% 75%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
 
-    padding: 10px;
+  @-moz-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @-webkit-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+.ResumeCoastlineInnerCloseup {
+    border: dashed 3px brown;
+    border-radius: 120px 270px 155px 190px;
+
+    padding: 1.5vw;
 
     height: fit-content;
 }
@@ -28,7 +75,7 @@
     background-color: tan;
     
     border: solid 6px brown;
-    border-radius: 50px;
+    border-radius: 120px 270px 155px 190px;
 
     height: 500px;
     width: 800px;
