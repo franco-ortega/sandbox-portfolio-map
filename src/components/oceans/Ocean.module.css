@@ -68,3 +68,26 @@
       background-position: 0% 50%;
     }
   }
+
+.Name {
+  border: solid .9vw goldenrod;
+  border-radius: .5vw;
+
+  color: white;
+
+  position: absolute;
+  top: -2%;
+
+  padding: .5%;
+
+  font-size: 5vw;
+}
+
+.ClickAround {
+  position: absolute;
+
+  color: white;
+
+  opacity: 75%;
+}
+
