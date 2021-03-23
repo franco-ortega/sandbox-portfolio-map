@@ -1,29 +1,10 @@
-.Island {
-    background-color: tan;
-    border: solid 2px brown;
-    border-radius: 50px;;
-
+.IslandContainer {
+    position: relative;
+    z-index: 1;
+    
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-
-    height: 9vh;
-    width: 5vw;
-
-    font-size: 1.25vw;
-    text-align: center;
-    
-}
-
-.CoastlineInner {
-    background: lightskyblue;
-    
-    border: dashed 1px brown;
-    border-radius: 50px;
-
-    padding: 3px;
-
-    height: fit-content;
 }
 
 .CoastlineOuter {
@@ -31,10 +12,33 @@
 
     border-radius: 50px;
 
-    margin: 2vw;
-    padding: 3px;
-
-    position: relative;
-    top: 35%;
+    padding: .4vw;
 }
 
+.CoastlineInner {
+    border: dashed 1px brown;
+    border-radius: 50px;
+
+    padding: .4vw;
+}
+
+.Island {
+    background-color: tan;
+    border: solid 2px brown;
+    border-radius: 50px;;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 12vh;
+    width: fit-content;
+
+    font-size: 1.25vw;
+    text-align: center;
+}
+
+.IslandTitle {
+    padding: 1vw;
+}
