@@ -4,9 +4,9 @@ import styles from './Compass.module.css';
 const Compass = () => {
     return (
         <div className={styles.Compass}>
-            <div className={styles.CompassRing}>
+            {/* <div className={styles.CompassRing}>
                 <div className={styles.CompassCenter}>
-                    <div className={styles.CompassDot}>
+                    <div className={styles.CompassDot}> */}
 
                     <hr className={styles.test3} />
                     <hr className={styles.test1} />
@@ -18,9 +18,9 @@ const Compass = () => {
                     <hr className={styles.test2} />
 
                     </div>
-                </div>
-            </div>
-        </div>
+        //         </div>
+        //     </div>
+        // </div>
     );
 };
 
