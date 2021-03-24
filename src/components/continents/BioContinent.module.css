@@ -13,7 +13,7 @@
 .CoastlineOuter {
     background: linear-gradient(90deg, #87cefa, #4e90b9,  #7eafce, #5a87a3);
     background-blend-mode: soft-light;
-    background-size: 400% 400%;
+    background-size: 15% 15%;
 
     animation: gradient 20s ease infinite;
     -moz-animation: gradient 20s ease infinite;
@@ -68,23 +68,26 @@
 
 
 .CoastlineInner {
-    border: dashed 2px brown;
-    border-radius: 120px 70px 95px 90px;
+  border: dashed 2px brown;
+  border-radius: 120px 70px 95px 90px;
 
-    padding: .8vw;
+  padding: .8vw;
 }
 
 .BioContinent {
-    background-color: tan;
-    border: solid 3px brown;
-    border-radius: 120px 70px 95px 90px;
+  background: linear-gradient(180deg, #c99f68, #d2b48c,  #ceb696);
+  background-blend-mode: soft-light;
+  background-size: 100% 100%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  border: solid 3px brown;
+  border-radius: 120px 70px 95px 90px;
 
-    height: 25vh;
-    width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    text-align: center;
+  height: 25vh;
+  width: 20vw;
+
+  text-align: center;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import profilePhoto from '../../assets/profilePhoto.jpg';
 import styles from './BioContinentCloseup.module.css';
 
 const BioContinentCloseup = ({ onContinentClick }) => {
@@ -8,10 +9,17 @@ const BioContinentCloseup = ({ onContinentClick }) => {
         <div className={styles.BioCoastlineOuterCloseup}>
             <div className={styles.BioCoastlineInnerCloseup}>
                 <div className={styles.BioContinentCloseup}>
-                    <h1>Bio Closeup</h1>
-                    <p className={styles.BioContent}>
-                        Bio words Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit vitae nobis tempora consequatur necessitatibus nihil quas unde nisi! Ad provident vel ea, porro a dignissimos doloremque impedit adipisci rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsam dignissimos facere doloremque possimus saepe aut, aliquid optio labore architecto veniam. Eum facilis, repudiandae aspernatur quae animi unde explicabo est? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quibusdam maiores quidem obcaecati modi. Sunt deserunt placeat, vel, ipsam tenetur iusto est temporibus nulla odio voluptate impedit aspernatur reprehenderit molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
+                    <h1>Profile</h1>
+                    <div className={styles.BioContainer}>
+                        <p className={styles.BioContent}>
+                            Compassion, communication, creativity, collaboration, and curiosity are qualities that I value dearly and strive to continuously improve. Optimism guides my efforts while realistic practicality ensures that my goals are brought to fruition. Doing work that improves the lives of others brings me great joy.
+                        </p>
+                        <img
+                            src={profilePhoto}
+                            alt="profile"
+                            className={styles.BioPhoto}
+                        />
+                    </div>
                     <button
                         onClick={onContinentClick}
                         className={styles.BioButton}
