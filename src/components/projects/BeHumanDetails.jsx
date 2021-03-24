@@ -1,5 +1,5 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import beHumanImg from '../../assets/beHuman_quarterSize.png';
 import styles from './BeHumanDetails.module.css'
 
@@ -15,9 +15,9 @@ const BeHumanDetails = ({ onProjectClick }) => {
                     className={styles.beHumanImage}
                 />
             </p>
-            <p>
-                <a href="https://marketplace.visualstudio.com/items?itemName=not-bot.be-human" rel="noreferrer" target="_blank">Extension</a> |
-                | <a href="https://github.com/alchemy-be-human" rel="noreferrer" target="_blank">GitHub</a>
+            <p className={styles.ProjectLinks}>
+                <a href="https://marketplace.visualstudio.com/items?itemName=not-bot.be-human" rel="noreferrer" target="_blank">Extension</a>
+                <a href="https://github.com/alchemy-be-human" rel="noreferrer" target="_blank">GitHub</a>
             </p>
             <button
                 onClick={onProjectClick}
@@ -26,11 +26,11 @@ const BeHumanDetails = ({ onProjectClick }) => {
                 X
             </button>
         </div>
-    )
-}
+    );
+};
 
 BeHumanDetails.propTypes = {
-
-}
+    onProjectClick: PropTypes.func.isRequired
+};
 
 export default BeHumanDetails

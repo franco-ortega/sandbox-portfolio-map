@@ -68,8 +68,10 @@
 }
 
 .BioContinentCloseup {
-    background-color: tan;
-    
+    background: linear-gradient(180deg, #c99f68, #d2b48c,  #ceb696);
+    background-blend-mode: soft-light;
+    background-size: 100% 100%;
+
     border: solid 0.40vw brown;
     border-radius: 360px 150px 285px 270px;
 
@@ -87,18 +89,30 @@
     font-size: 1.25vw;
 }
 
+.BioContainer {
+  display: flex;
+  align-items: center;
+  padding: 3vw;  
+}
+
 .BioContent {
     border-radius:  1vw 1vw 1vw 1vw;
-    border: solid;
 
     margin: 1.5vw;
     padding-left: 1vw;
     padding-right: 1vw;
     padding-bottom: 1vw;
-    text-align: justify;
-
+    
     overflow-y: scroll;
     scroll-behavior: auto;
+    
+    font-size: 1.3vw;
+    text-align: justify;
+}
+
+.BioPhoto {
+  border-radius: 50%;
+  width: 35%;
 }
 
 .BioButton {

@@ -6,6 +6,7 @@
     justify-content: center;
     
     margin: 1%;
+    margin-bottom: 3%;
     height: 35vh;
     width: 25vw;
 }
@@ -74,7 +75,10 @@
 }
 
 .ProjectContinent {
-    background-color: tan;
+  background: linear-gradient(45deg, #c99f68, #d2b48c,  #ceb696);
+  background-blend-mode: soft-light;
+  background-size: 3% 3%;
+
     border: solid 3px brown;
     border-radius: 420px 370px 255px 190px;
 

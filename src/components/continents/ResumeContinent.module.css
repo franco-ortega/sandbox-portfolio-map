@@ -5,7 +5,9 @@
     align-items: center;
     justify-content: center;
     
-    margin: 1%;
+    
+    margin-bottom: 5%;
+    
     height: 35vh;
     width: 25vw;
 }
@@ -74,7 +76,10 @@
 }
 
 .ResumeContinent {
-    background-color: tan;
+  background: linear-gradient(45deg, #c99f68, #d2b48c,  #ceb696);
+  background-blend-mode: soft-light;
+  background-size: 10% 10%;
+  
     border: solid 3px brown;
     border-radius: 120px 270px 155px 190px;
 

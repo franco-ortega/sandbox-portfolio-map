@@ -1,6 +1,9 @@
-.BeHumanDetails {
-    background: #9cc4d7;
-    border: solid black;
+.WeatherBeatsDetails {
+    background-image: url(../../assets/WeatherBeats_full.jpg);
+    background-position: 5% 55%;
+    background-repeat: no-repeat;
+    background-size: 155%;
+
     border-radius: 1vw;
 
     display: flex;
@@ -18,23 +21,6 @@
     width: 53%;
 
     font-size: 1.5vw;
-}
-
-.beHumanImage {
-    border: solid .2vw black;
-    border-radius: 50%;
-
-    display: block;
-    margin: auto;
-    width: 10vw;
-}
-
-.ProjectLinks {
-    position: relative;
-    left: -1.75%;
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .ProjectButton {

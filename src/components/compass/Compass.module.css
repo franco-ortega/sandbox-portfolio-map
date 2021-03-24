@@ -55,7 +55,7 @@
     border: solid 1px yellow;
     border-radius: 50px;
 
-    width: 30vw;
+    width: 25vw;
 }
 
 .test2 {
@@ -67,7 +67,7 @@
     border-radius: 50px;
     transform: rotate(90deg);
 
-    width: 30vw;
+    width: 25vw;
 }
 
 .test3 {
@@ -79,7 +79,7 @@
     border-radius: 50px;
     transform: rotate(45deg);
 
-    width: 25vw;
+    width: 20vw;
 }
 
 .test4 {
@@ -91,7 +91,7 @@
     border-radius: 50px;
     transform: rotate(135deg);
 
-    width: 25vw;
+    width: 20vw;
 }
 
 .test5 {
@@ -103,7 +103,7 @@
     border-radius: 50px;
     transform: rotate(22.5deg);
 
-    width: 20vw;
+    width: 15vw;
 }
 
 .test6 {
@@ -115,7 +115,7 @@
     border-radius: 50px;
     transform: rotate(67.5deg);
 
-    width: 20vw;
+    width: 15vw;
 }
 
 .test7 {
@@ -127,7 +127,7 @@
     border-radius: 50px;
     transform: rotate(112.5deg);
 
-    width: 20vw;
+    width: 15vw;
 }
 
 .test8 {
@@ -139,5 +139,5 @@
     border-radius: 50px;
     transform: rotate(157.5deg);
 
-    width: 20vw;
+    width: 15vw;
 }

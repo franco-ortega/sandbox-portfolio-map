@@ -13,8 +13,8 @@
     padding: 1.5vw;
 
     position: fixed;
-    top: -1%;
-    right: 15%;
+    top: -3vw;
+    right: 3vw;
     z-index: 2;
 }
 
@@ -68,36 +68,36 @@
 }
 
 .ResumeContinentCloseup {
-    background-color: tan;
-    
+  background: linear-gradient(45deg, #c99f68, #d2b48c,  #ceb696);
+  background-blend-mode: soft-light;
+  background-size: 5% 5%;
+
     border: solid 6px brown;
     border-radius: 120px 270px 155px 190px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     position: relative;
 
     padding: .5vw;
-    height: 70vh;
-    width: 60vw;
+    height: 80vh;
+    width: 80vw;
 
     font-size: 1.5vw;
 }
 
 .ResumeContent {
-    border-radius:  1vw 1vw 1vw 1vw;
+  background: tan;
+  border-radius:  1vw 1vw 1vw 1vw;
 
-    margin: 1vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    padding-bottom: 1vw;
-    text-align: justify;
+  position: fixed;
+  top: 10vw;
+  left: 15vw;
 
-    overflow-y: scroll;
-    scroll-behavior: auto;
+  height: 60vh;
 }
 
 .ResumeButton {

@@ -1,5 +1,7 @@
 import React from 'react';
+// import { Document, Page } from 'react-pdf';
 import PropTypes from 'prop-types';
+import resume from '../../assets/Franco_Ortega_Resume.pdf';
 import styles from './ResumeContinentCloseup.module.css';
 
 const ResumeContinentCloseup = ({ onContinentClick }) => {
@@ -9,9 +11,14 @@ const ResumeContinentCloseup = ({ onContinentClick }) => {
         >
             <div className={styles.ResumeCoastlineInnerCloseup}>
                 <div className={styles.ResumeContinentCloseup}>
-                    <h1>Resume Closeup</h1>
+                    <h1>Resume</h1>
                     <p className={styles.ResumeContent}>
-                        Resume words Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit vitae nobis tempora consequatur necessitatibus nihil quas unde nisi! Ad provident vel ea, porro a dignissimos doloremque impedit adipisci rerum.
+                    <embed
+                        src={`${resume}#zoom=100`}
+                        type="application/pdf"
+                        width="300%"
+                        height="100%"
+                    />
                     </p>
                     <button
                         onClick={onContinentClick}

@@ -68,7 +68,10 @@
 }
 
 .ProjectContinentCloseup {
-    background-color: tan;
+  background: linear-gradient(45deg, #c99f68, #d2b48c,  #ceb696);
+  background-blend-mode: soft-light;
+  background-size: 1% 1%;
+
     
     border: solid 0.40vw brown;
     border-radius: 420px 370px 255px 190px;
@@ -81,6 +84,7 @@
     position: relative;
 
     padding: 1vw;
+    padding-left: 2.75vw;
     height: 75vh;
     width: 70vw;
 
@@ -109,13 +113,11 @@
   scroll-behavior: auto;
 
   width: 55vw;
-
-
-  border: solid burlywood;
 }
 
 .Project {
-  border: solid;
+  background: tan;
+  border: solid .2vw black;
   border-radius: 1vw;
 
   display: flex;
