@@ -1,7 +1,6 @@
-.WeatherBeats {
-    background-color: pink;
+.WeatherBeats2 {
     background-image: url(../../assets/WeatherBeats_mobile.jpg);
-    background-position: 50% 45%;
+    background-position: 50% 55%;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -17,9 +16,6 @@
     height: 100%;
     width: 100%;
 
-    overflow-y: scroll;
-    scroll-behavior: auto;
-    
     font-size: 1.25vw;
     text-align: justify;
 }

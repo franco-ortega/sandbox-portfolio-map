@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import styles from './ProjectContinentCloseup.module.css';
 import WeatherBeats from '../projects/WeatherBeats';
 import BeHuman from '../projects/BeHuman';
+import WeatherBeats2 from '../projects/WeatherBeats2';
+import BeHuman2 from '../projects/BeHuman2';
 
 const ProjectContinentCloseup = ({ onContinentClick }) => {
 
@@ -15,23 +17,37 @@ const ProjectContinentCloseup = ({ onContinentClick }) => {
                     <p className={styles.ProjectContent}>
                         These projects were completed remotely with 3-5 member teams over 5-10 day sprints.
                     </p>
+
                     <div className={styles.ProjectContainer}>
+
                         <div className={styles.Project}>
-                            PROJECT #1 - WeatherBeats
+                            WeatherBeats (option #1)
                             <WeatherBeats />
                         </div>
+
                         <div className={styles.Project}>
-                            <p>beHuman</p>
-                            {/* <p style={{ position: 'fixed', top: '50%', right: '20%', transform: 'rotate(90deg)' }}>
-                                (layout option #2)
-                            </p> */}
+                            <p>beHuman (option #2)</p>
                             <BeHuman
-                                onContinentClick={onContinentClick}
                             />
                         </div>
+
+                        <div className={styles.Project}>
+                            WeatherBeats (option #2)
+                            <WeatherBeats2 />
+                        </div>
+
+                        <div className={styles.Project}>
+                            <p>beHuman (option #1)</p>
+                            <BeHuman2
+                            />
+                        </div>
+
                         <div className={styles.Project}>PROJECT #3 - Choose GIF</div>
+
                         <div className={styles.Project}>PROJECT #4 - Major Arcana Divinator</div>
+
                     </div>
+
                     <button
                         onClick={onContinentClick}
                         className={styles.ProjectButton}

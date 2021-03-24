@@ -81,6 +81,7 @@
     position: relative;
 
     padding: 1vw;
+    padding-left: 2.75vw;
     height: 75vh;
     width: 70vw;
 
@@ -109,13 +110,10 @@
   scroll-behavior: auto;
 
   width: 55vw;
-
-
-  border: solid burlywood;
 }
 
 .Project {
-  border: solid;
+  border: solid .2vw black;
   border-radius: 1vw;
 
   display: flex;

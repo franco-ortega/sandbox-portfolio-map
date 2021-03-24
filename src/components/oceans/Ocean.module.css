@@ -16,7 +16,6 @@
     position: absolute;
     z-index: -2;
 
-
     background: linear-gradient(90deg, #241192, #1d2ec9,  #291181, #2e1dcc, #1567d1);
     background-blend-mode: soft-light;
     background-size: 400% 400%;
@@ -24,7 +23,6 @@
     animation: gradient 20s ease infinite;
     -moz-animation: gradient 20s ease infinite;
     -webkit-animation: gradient 20s ease infinite;
-
 }
 
 @keyframes gradient {
@@ -78,16 +76,7 @@
   position: absolute;
   top: -2%;
 
-  padding: .5%;
+  padding: 1%;
 
-  font-size: 5vw;
+  font-size: 4.5vw;
 }
-
-.ClickAround {
-  position: absolute;
-
-  color: white;
-
-  opacity: 75%;
-}
-
