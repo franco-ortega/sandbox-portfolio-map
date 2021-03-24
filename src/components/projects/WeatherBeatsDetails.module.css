@@ -17,10 +17,14 @@
 
     padding: 1%;
 
-    height: 60%;
+    height: fit-content;
     width: 53%;
 
-    font-size: 1.5vw;
+    font-size: 1.25vw;
+}
+
+.ProjectBox {
+    margin: 1vw;
 }
 
 .ProjectButton {

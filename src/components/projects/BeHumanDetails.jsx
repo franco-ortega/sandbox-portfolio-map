@@ -7,6 +7,9 @@ const BeHumanDetails = ({ onProjectClick }) => {
     return (
         <div className={styles.BeHumanDetails}>
             <h2>beHuman</h2>
+            <p className={styles.ProjectBox}>
+                HTML | CSS | JavaScript | Node | Express | SQL | Supertest | Heroku
+            </p>
             <p>
                 VSCode extension that prompts users to take breaks with an hourly pop-up that provides wellness tips and movement videos. Users may adjust the time increment and reset the timer. My efforts included sandboxing to develop the initial time tracking functionality and pop-ups; making a model with endpoints and testing; building an admin website to update the database and invite new admins.
             </p>
