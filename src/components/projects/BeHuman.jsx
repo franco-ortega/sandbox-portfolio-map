@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import BeHumanDetails from './BeHumanDetails';
 import useProjectToggle from '../../hooks/useProjectToggle';
 import styles from './BeHuman.module.css';
