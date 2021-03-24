@@ -5,13 +5,13 @@
     align-items: center;
     justify-content: center;
     
-    margin: 1%;
+    margin-top: 5%;
     height: 35vh;
     width: 25vw;
 }
 
 .CoastlineOuter {
-    background: linear-gradient(90deg, #87cefa, #4e90b9,  #7eafce, #5a87a3);
+    background: linear-gradient(90deg, #87cefa, #6fbae9,  #7eafce, #75b1d6);
     background-blend-mode: soft-light;
     background-size: 15% 15%;
 

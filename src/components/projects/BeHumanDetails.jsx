@@ -16,8 +16,8 @@ const BeHumanDetails = ({ onProjectClick }) => {
                 />
             </p>
             <p className={styles.ProjectLinks}>
-                <a href="https://marketplace.visualstudio.com/items?itemName=not-bot.be-human" rel="noreferrer" target="_blank">Extension</a> |
-                | <a href="https://github.com/alchemy-be-human" rel="noreferrer" target="_blank">GitHub</a>
+                <a href="https://marketplace.visualstudio.com/items?itemName=not-bot.be-human" rel="noreferrer" target="_blank">Extension</a>
+                <a href="https://github.com/alchemy-be-human" rel="noreferrer" target="_blank">GitHub</a>
             </p>
             <button
                 onClick={onProjectClick}

@@ -7,16 +7,22 @@ const Legend = () => {
         <div className={styles.Legend}>
             <h2>Legend/Tech Stack</h2>
             <p>
-                Front End: words, words, words
+                Languages: JavaScript, SQL, HTML, CSS
             </p>
             <p>
-                Back End: words, words, words
+                Front End: React, Redux
             </p>
             <p>
-                Testing: words, words, words
+                Back End: Node, Express
             </p>
             <p>
-                Tools: words, words, words
+                Databases: PostgreSQL
+            </p>
+            <p>
+                Testing: Jest, QUnit, Supertest
+            </p>
+            <p>
+                Tools: Git, GitHub, Heroku, Miro, Netlify, pgAdmin, Postman, Slack, VSCode, Whimsical, Zoom
             </p>
         </div>
     )

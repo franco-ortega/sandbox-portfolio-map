@@ -1,5 +1,6 @@
 .IslandContainer {
     position: relative;
+    left: 3vw;
     
     display: flex;
     align-items: center;

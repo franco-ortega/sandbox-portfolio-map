@@ -16,10 +16,10 @@ const Ocean = () => {
             <div className={styles.Name}>
                 Franco Ortega
             </div>
-            <Legend />
             <GitHubIsland />
             <BioContinent />
             <LinkedInIsland />
+            <Legend />
             <ProjectContinent />
             <ResumeContinent />
             <ArtworkIsland />

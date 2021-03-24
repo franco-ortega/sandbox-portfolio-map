@@ -29,6 +29,14 @@
     width: 10vw;
 }
 
+.ProjectLinks {
+    position: relative;
+    left: -1.75%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .ProjectButton {
     border-radius: 50%;
 
