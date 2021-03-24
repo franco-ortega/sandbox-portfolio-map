@@ -71,7 +71,6 @@
   background: linear-gradient(45deg, #c99f68, #d2b48c,  #ceb696);
   background-blend-mode: soft-light;
   background-size: 1% 1%;
-
     
     border: solid 0.40vw brown;
     border-radius: 420px 370px 255px 190px;
@@ -92,6 +91,8 @@
 }
 
 .ProjectContent {
+  background: tan;
+  
     margin: 1vw;
     padding-left: 1.75vw;
     padding-right: 1.5vw;
@@ -117,7 +118,7 @@
 
 .Project {
   background: tan;
-  border: solid .2vw black;
+  
   border-radius: 1vw;
 
   display: flex;
@@ -125,16 +126,17 @@
   align-items: center;
 
   margin: 1vw;
-  padding: 1vw;
+  margin-bottom: .25vw;
 
-  height: 40vh;
+  height: 80%;
   width: 25vw;
 }
 
 .ProjectButton {
   background-color: black;
   color: silver;
-  padding: 1%;
+  margin: .2vw;
+  padding: .3vw;
   border-radius: 50px;
   outline: none;
 }

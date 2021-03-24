@@ -5,8 +5,11 @@ import styles from './WeatherBeatsDetails.module.css';
 const WeatherBeatsDetails = ({ onProjectClick }) => {
     return (
         <div className={styles.WeatherBeatsDetails}>
-            <h2>WeatherBeats</h2>
-            <p>
+            <h2 className={styles.ProjectBox}>WeatherBeats</h2>
+            <p className={styles.ProjectBox}>
+                React | CSS | Node | Express | WeatherBit API | Spotify API | Heroku | Netlify
+            </p>
+            <p className={styles.ProjectBox}>
                 WeatherBeats provides a music playlist based on the weather. Users may customize their experience by selecting a preferred location, weather, or genre. Completed in a 10-day remote sprint with a 5-member team. My contributions included the acquisition of location data and associated fetch requests; creating a responsive design and consistent layout; building data files incorporated with props to enhance modularity and scalability; refactoring repetitive code.
             </p>
             <p className={styles.ProjectBox}>
