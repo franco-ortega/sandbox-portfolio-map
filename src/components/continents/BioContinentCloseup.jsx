@@ -13,6 +13,11 @@ const BioContinentCloseup = ({ onContinentClick }) => {
                     <p>(he/him)</p>
                     <div className={styles.BioContainer}>
                         <p className={styles.BioContent}>
+                            <img
+                                src={profilePhoto}
+                                alt="profile"
+                                className={styles.BioPhoto}
+                            />
                             Compassion, communication, creativity, collaboration, and curiosity are qualities that I value dearly and strive to continuously improve. Optimism guides my efforts while realistic practicality ensures that my goals are brought to fruition. Doing work that improves the lives of others brings me great joy.
                         <br/>
                         <br/>
@@ -24,11 +29,7 @@ const BioContinentCloseup = ({ onContinentClick }) => {
                         <br/>
                             Yes to social justice, climate justice, and economic justice. 
                         </p>
-                        <img
-                            src={profilePhoto}
-                            alt="profile"
-                            className={styles.BioPhoto}
-                        />
+                        
                     </div>
                     <button
                         onClick={onContinentClick}

@@ -78,12 +78,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    position: relative;
+    justify-content: center;
 
     padding: .5vw;
     height: 70vh;
     width: 60vw;
+
+    overflow-y: scroll;
+    scroll-behavior: auto;
 
     font-size: 1.25vw;
 }
@@ -91,11 +93,12 @@
 .BioContainer {
   display: flex;
   align-items: center;
+
   padding: 3vw;
+  height: 75%;
 
   overflow-y: scroll;
   scroll-behavior: auto;
-
 }
 
 .BioContent {
@@ -106,17 +109,19 @@
     padding-right: 1vw;
     padding-bottom: 1vw;
 
-    height: 85%;
+    height: 100%;
     
     overflow-y: scroll;
     scroll-behavior: auto;
     
-    font-size: 1.3vw;
+    font-size: 1.15vw;
     text-align: justify;
 }
 
 .BioPhoto {
   border-radius: 50%;
+  float: right;
+  margin: 1vw;
   width: 35%;
 }
 
