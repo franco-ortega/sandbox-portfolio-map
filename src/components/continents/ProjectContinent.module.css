@@ -11,6 +11,11 @@
     width: 25vw;
 }
 
+.CoastlineOuter:hover {
+  cursor: crosshair;
+}
+
+
 .CoastlineOuter {
     background: linear-gradient(90deg, #87cefa, #4e90b9,  #7eafce, #5a87a3);
     background-blend-mode: soft-light;
@@ -92,4 +97,14 @@
     width: 20vw;
 
     text-align: center;
+}
+
+
+@media only screen and (max-width: 900px) and (orientation: portrait) {
+  .ProjectContinent, .ContinentContainer {
+
+    height: 20vh;
+    width: 70vw;
+    
+  }
 }

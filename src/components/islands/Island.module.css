@@ -7,6 +7,11 @@
     justify-content: center;
 }
 
+.IslandContainer:hover {
+    cursor: pointer;
+  }
+  
+
 .CoastlineOuter {
     background: lightskyblue;
 
@@ -45,3 +50,12 @@
 .IslandTitle {
     padding: 1vw;
 }
+
+
+@media only screen and (max-width: 900px) and (orientation: portrait) {
+    .Island, .IslandContainer {
+      height: 5vh;
+      width: 10vw;
+    }
+  }
+  
