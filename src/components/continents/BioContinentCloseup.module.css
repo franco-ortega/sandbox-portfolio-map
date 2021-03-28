@@ -16,6 +16,8 @@
     top: -5%;
     right: 12%;
     z-index: 2;
+
+    box-shadow: 0px 0px 15px 20px #4e90b9;
 }
 
 @keyframes gradient {

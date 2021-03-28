@@ -23,6 +23,8 @@
     border-radius: 420px 370px 255px 190px;
 
     padding: .8vw;
+
+    box-shadow: 0px 0px 1.5vw 1vw #4e90b9;
 }
 
 @keyframes gradient {

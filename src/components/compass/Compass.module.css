@@ -13,7 +13,7 @@
     width: 150px;
 
     background: rgba(60, 60, 199, 0);
-    border: solid 2px yellow;
+    border: solid 2px silver;
     border-radius: 50%;
 
     display: flex;
@@ -28,7 +28,7 @@
     width: 50px;
     
 
-    background: yellow;
+    background: silver;
     border-radius: 50%;
 
     display: flex;
@@ -52,7 +52,7 @@
     top: 70%;
     right: 10%;
 
-    border: solid 1px yellow;
+    border: solid 1px silver;
     border-radius: 50px;
 
     width: 25vw;
@@ -63,7 +63,7 @@
     top: 70%;
     right: 10%;
 
-    border: solid 1px yellow;
+    border: solid 1px silver;
     border-radius: 50px;
     transform: rotate(90deg);
 
@@ -75,7 +75,7 @@
     top: 70%;
     right: 12.5%;
 
-    border: solid 1px yellow;
+    border: solid 1px silver;
     border-radius: 50px;
     transform: rotate(45deg);
 
@@ -87,7 +87,7 @@
     top: 70%;
     right: 12.5%;
 
-    border: solid 1px yellow;
+    border: solid 1px silver;
     border-radius: 50px;
     transform: rotate(135deg);
 
@@ -99,7 +99,7 @@
     top: 70%;
     right: 15%;
 
-    border: solid 1px yellow;
+    border: solid 1px silver;
     border-radius: 50px;
     transform: rotate(22.5deg);
 
@@ -111,7 +111,7 @@
     top: 70%;
     right: 15%;
 
-    border: solid 1px yellow;
+    border: solid 1px silver;
     border-radius: 50px;
     transform: rotate(67.5deg);
 
@@ -123,7 +123,7 @@
     top: 70%;
     right: 15%;
 
-    border: solid 1px yellow;
+    border: solid 1px silver;
     border-radius: 50px;
     transform: rotate(112.5deg);
 
@@ -135,7 +135,7 @@
     top: 70%;
     right: 15%;
 
-    border: solid 1px yellow;
+    border: solid 1px silver;
     border-radius: 50px;
     transform: rotate(157.5deg);
 
