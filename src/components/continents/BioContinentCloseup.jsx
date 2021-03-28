@@ -9,7 +9,8 @@ const BioContinentCloseup = ({ onContinentClick }) => {
         <div className={styles.BioCoastlineOuterCloseup}>
             <div className={styles.BioCoastlineInnerCloseup}>
                 <div className={styles.BioContinentCloseup}>
-                    <h1>Profile</h1>
+                    <h1>Franco Ortega</h1>
+                    <p>(he/him)</p>
                     <div className={styles.BioContainer}>
                         <p className={styles.BioContent}>
                             Compassion, communication, creativity, collaboration, and curiosity are qualities that I value dearly and strive to continuously improve. Optimism guides my efforts while realistic practicality ensures that my goals are brought to fruition. Doing work that improves the lives of others brings me great joy.

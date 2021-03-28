@@ -62,7 +62,7 @@
 
 .BioCoastlineInnerCloseup {
     border: dashed 0.3vw brown;
-    border-radius: 360px 150px 285px 270px;
+    border-radius: inherit;
 
     padding: 1.5vw;
 }
@@ -73,13 +73,12 @@
     background-size: 100% 100%;
 
     border: solid 0.40vw brown;
-    border-radius: 360px 150px 285px 270px;
+    border-radius: inherit;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-
+    
     position: relative;
 
     padding: .5vw;
@@ -92,18 +91,22 @@
 .BioContainer {
   display: flex;
   align-items: center;
-  padding: 3vw;  
+  padding: 3vw;
+
+  overflow-y: scroll;
+  scroll-behavior: auto;
+
 }
 
 .BioContent {
-    border-radius:  1vw 1vw 1vw 1vw;
+    border-radius: 1vw 1vw 1vw 1vw;
 
     margin: 1.5vw;
     padding-left: 1vw;
     padding-right: 1vw;
     padding-bottom: 1vw;
 
-    height: 50%;
+    height: 85%;
     
     overflow-y: scroll;
     scroll-behavior: auto;
