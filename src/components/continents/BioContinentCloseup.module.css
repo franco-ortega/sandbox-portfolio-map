@@ -16,6 +16,8 @@
     top: -5%;
     right: 12%;
     z-index: 2;
+
+    box-shadow: 0px 0px 15px 20px #4e90b9;
 }
 
 @keyframes gradient {
@@ -91,8 +93,9 @@
   display: flex;
   align-items: center;
 
+  margin: 1vw;
   padding: 3vw;
-  height: 75%;
+  height: 70%;
 }
 
 .BioContent {
@@ -124,4 +127,29 @@
   padding: 1%;
   border-radius: 50px;
   outline: none;
+}
+
+
+@media (max-width: 700px) {
+.BioContainer {
+  display: flex;
+  align-items: center;
+
+  margin: 1vw;
+  height: 50%;
+}
+
+.BioContent {
+    border-radius: 1vw 1vw 1vw 1vw;
+
+    margin: .5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+
+    height: fit-content;
+    font-size: 1.5vw;
+}
+
+
 }

@@ -24,6 +24,8 @@
     border-radius: 120px 270px 155px 190px;
 
     padding: .8vw;
+
+    box-shadow: 0px 0px 20px 30px darkblue;
 }
 
 @keyframes gradient {
@@ -91,4 +93,9 @@
     width: 20vw;
 
     text-align: center;
+}
+
+.ResumeLink {
+  color: black;
+  text-decoration: none;
 }
