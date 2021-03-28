@@ -102,6 +102,8 @@
     padding-left: 1vw;
     padding-right: 1vw;
     padding-bottom: 1vw;
+
+    height: 50%;
     
     overflow-y: scroll;
     scroll-behavior: auto;
