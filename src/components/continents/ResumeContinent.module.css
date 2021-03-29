@@ -102,10 +102,15 @@
 
 
 @media only screen and (max-width: 900px) and (orientation: portrait) {
-  .ResumeContinent, .ContinentContainer {
-
+  .ContinentContainer {
     height: 20vh;
-    width: 70vw;
+    width: 75vw;
+    
+  }
+
+  .ResumeContinent {
+    height: 20vh;
+    width: 60vw;
     
   }
 }
