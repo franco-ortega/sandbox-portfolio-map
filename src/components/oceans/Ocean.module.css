@@ -84,8 +84,6 @@
 
 @media only screen and (max-width: 900px) and (orientation: portrait) {
   .Ocean {
-
-    
     height: 80%;
     width: 100vh;
     transform: rotate(90deg);
