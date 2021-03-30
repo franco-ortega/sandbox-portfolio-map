@@ -21,7 +21,7 @@ const ProjectContinentCloseup = ({ onContinentClick }) => {
                     <div className={styles.ProjectContainer}>
 
                         <div className={styles.Project}>
-                            <WeatherBeats />
+                            <WeatherBeats2 />
                         </div>
 
                         <div className={styles.Project}>
@@ -29,17 +29,27 @@ const ProjectContinentCloseup = ({ onContinentClick }) => {
                             />
                         </div>
 
-                        <div className={styles.Project}>
-                            <WeatherBeats2 />
+                        {/* <div className={styles.Project}>
+                            <WeatherBeats />
                         </div>
 
                         <div className={styles.Project}>
                             <BeHuman2 />
+                        </div> */}
+
+                        <div className={styles.Project}>
+                            PROJECT #3 - Choose GIF
+                            <p>
+                                ***coming soon***
+                            </p>
                         </div>
 
-                        <div className={styles.Project}>PROJECT #3 - Choose GIF</div>
-
-                        <div className={styles.Project}>PROJECT #4 - Major Arcana Divinator</div>
+                        <div className={styles.Project}>
+                            PROJECT #4 - Major Arcana Divinator
+                            <p>
+                                ***coming soon***
+                            </p>
+                        </div>
 
                     </div>
 
