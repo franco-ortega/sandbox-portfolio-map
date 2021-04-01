@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './ProjectContinentCloseup.module.css';
-import WeatherBeats from '../projects/WeatherBeats';
+// import WeatherBeats from '../projects/WeatherBeats';
 import BeHuman from '../projects/BeHuman';
 import WeatherBeats2 from '../projects/WeatherBeats2';
-import BeHuman2 from '../projects/BeHuman2';
+// import BeHuman2 from '../projects/BeHuman2';
 
 const ProjectContinentCloseup = ({ onContinentClick }) => {
 
