@@ -90,8 +90,8 @@
 }
 
 .BioContainer {
-  display: flex;
-  align-items: center;
+  border: solid;
+  
 
   margin: 1vw;
   padding: 3vw;
@@ -100,6 +100,8 @@
 
 .BioContent {
     border-radius: 1vw 1vw 1vw 1vw;
+
+    border: .1vw white solid;
 
     margin: 1.5vw;
     padding-left: 1vw;
@@ -132,8 +134,8 @@
 
 @media (max-width: 700px) {
 .BioContainer {
-  display: flex;
-  align-items: center;
+  
+  
 
   margin: 1vw;
   height: 50%;
@@ -149,7 +151,7 @@
     padding-right: 1vw;
     padding-bottom: 1vw;
 
-    height: fit-content;
+    
     font-size: 1.5vw;
 }
 
