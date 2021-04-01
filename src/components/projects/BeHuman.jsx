@@ -13,7 +13,7 @@ const BeHuman = () => {
         return (
             <div className={styles.BeHuman}>
                 <h2>beHuman</h2>
-                (option #2)
+                {/* (option #2) */}
                 <p className={styles.ProjectBox}>
                     beHuman is a VSCode extension that prompts users to take breaks with an hourly pop-up that provides wellness tips and movement videos.
                 </p>

@@ -13,7 +13,7 @@ const WeatherBeats2 = () => {
         return (
             <div className={styles.WeatherBeats2}>
                 <h2>WeatherBeats</h2>
-                (option #2)
+                {/* (option #2) */}
                 <p className={styles.ProjectBox}>
                     WeatherBeats provides a music playlist based on the weather. Users may customize their experience by selecting a preferred location, weather, or genre.
                 </p>
